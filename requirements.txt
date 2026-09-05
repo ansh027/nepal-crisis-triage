@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+transformers
+torch
+datasets
+tqdm
+python-dotenv
+requests
+geopy
+google-api-python-client
+praw

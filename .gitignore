@@ -1,0 +1,15 @@
+.env
+data/raw/
+data/interim/
+models/
+*.jsonl
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# OS
+.DS_Store
