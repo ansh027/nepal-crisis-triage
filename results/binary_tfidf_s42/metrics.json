@@ -1,0 +1,60 @@
+{
+  "n": 171,
+  "accuracy": 0.7368421052631579,
+  "macro_f1": 0.6296385426192425,
+  "per_class": {
+    "disaster": {
+      "precision": 0.7841726618705036,
+      "recall": 0.8790322580645161,
+      "f1": 0.8288973384030418,
+      "support": 124
+    },
+    "not_disaster": {
+      "precision": 0.53125,
+      "recall": 0.3617021276595745,
+      "f1": 0.43037974683544306,
+      "support": 47
+    }
+  },
+  "confusion_matrix": [
+    [
+      109,
+      15
+    ],
+    [
+      30,
+      17
+    ]
+  ],
+  "per_script": {
+    "devanagari": {
+      "n": 66,
+      "accuracy": 0.7121212121212122,
+      "macro_f1": 0.5801807833947104
+    },
+    "romanized_nepali": {
+      "n": 37,
+      "accuracy": 0.8378378378378378,
+      "macro_f1": 0.7016129032258065
+    },
+    "mixed": {
+      "n": 13,
+      "accuracy": 0.7692307692307693,
+      "macro_f1": 0.43478260869565216
+    },
+    "english": {
+      "n": 55,
+      "accuracy": 0.6909090909090909,
+      "macro_f1": 0.6438095238095238
+    }
+  },
+  "dev_macro_f1": 0.7249476865845152,
+  "model": "tfidf",
+  "task": "binary",
+  "seed": 42,
+  "labels": [
+    "disaster",
+    "not_disaster"
+  ],
+  "train_seconds": 1.2
+}
