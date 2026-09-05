@@ -113,7 +113,8 @@ data/final/       released dataset: train/dev/test + dataset README
 
 ## License
 
-TBD before public release — likely CC BY 4.0 for the dataset, MIT for code.
+- Code (`scripts/`): MIT — see [LICENSE](LICENSE)
+- Dataset (`data/final/`): CC BY 4.0 — see [data/final/LICENSE](data/final/LICENSE)
 
 ## Acknowledgments
 
