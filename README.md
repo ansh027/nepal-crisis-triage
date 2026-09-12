@@ -88,7 +88,7 @@ Full breakdown, per-split counts, and script mix: `data/final/README.md`.
 
 - [x] Scraper, sampler, annotation guidelines
 - [x] 1,131 rows labeled, reviewed, and split
-- [ ] Baseline fine-tuned classifier (NepaliBERT / RoBERTa) + per-script F1
+- [x] Baseline fine-tuned classifier (NepaliBERT / RoBERTa) + per-script F1
 - [ ] Location NER + geocoding demo
 - [ ] Public release with license and dataset card finalized
 
