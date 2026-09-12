@@ -66,6 +66,17 @@ Full definitions and every edge-case ruling are in
 
 Full breakdown, per-split counts, and script mix: `data/final/README.md`.
 
+## Results
+
+Fine-tuned MuRIL (multilingual) reaches **0.666 ± 0.017 macro-F1** on the
+held-out test set, a real gain over a TF-IDF baseline (0.630) — while
+NepaliBERT (0.577 ± 0.007), a Nepali-only pretrained model, actually
+underperforms the baseline, likely because the corpus is majority
+Romanized and code-mixed rather than formal Devanagari. Across every
+transformer run and seed, **code-mixed Nepali-English is consistently the
+hardest text to classify** — the weakest per-script result of every model
+tried. Full table and per-script chart: [`results/summary.md`](results/summary.md).
+
 ## Honest limitations
 
 - **`other` dominates the disaster class.** YouTube comment sections skew
