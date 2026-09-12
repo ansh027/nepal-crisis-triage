@@ -1,0 +1,4 @@
+model,seeds,macro_f1_mean,macro_f1_std,accuracy_mean,accuracy_std,devanagari_mean,devanagari_std,romanized_nepali_mean,romanized_nepali_std,mixed_mean,mixed_std,english_mean,english_std
+tfidf,1,0.630,—,0.737,—,0.580,—,0.702,—,0.435,—,0.644,—
+google__muril-base-cased,3,0.666,0.017,0.747,0.019,0.607,0.040,0.629,0.058,0.458,0.018,0.714,0.043
+IRIISNEPAL__RoBERTa_Nepali_110M,3,0.577,0.007,0.700,0.028,0.555,0.020,0.508,0.045,0.398,0.035,0.597,0.026
