@@ -1,0 +1,60 @@
+{
+  "n": 171,
+  "accuracy": 0.7602339181286549,
+  "macro_f1": 0.6886352533641249,
+  "per_class": {
+    "disaster": {
+      "precision": 0.8217054263565892,
+      "recall": 0.8548387096774194,
+      "f1": 0.8379446640316206,
+      "support": 124
+    },
+    "not_disaster": {
+      "precision": 0.5714285714285714,
+      "recall": 0.5106382978723404,
+      "f1": 0.5393258426966292,
+      "support": 47
+    }
+  },
+  "confusion_matrix": [
+    [
+      106,
+      18
+    ],
+    [
+      23,
+      24
+    ]
+  ],
+  "per_script": {
+    "devanagari": {
+      "n": 66,
+      "accuracy": 0.7424242424242424,
+      "macro_f1": 0.6565656565656566
+    },
+    "romanized_nepali": {
+      "n": 37,
+      "accuracy": 0.7297297297297297,
+      "macro_f1": 0.5595238095238095
+    },
+    "mixed": {
+      "n": 13,
+      "accuracy": 0.9230769230769231,
+      "macro_f1": 0.48
+    },
+    "english": {
+      "n": 55,
+      "accuracy": 0.7636363636363637,
+      "macro_f1": 0.7472605160834218
+    }
+  },
+  "dev_macro_f1": 0.7235709366391184,
+  "model": "google/muril-base-cased",
+  "task": "binary",
+  "seed": 3,
+  "labels": [
+    "disaster",
+    "not_disaster"
+  ],
+  "train_seconds": 612.0
+}

@@ -1,0 +1,60 @@
+{
+  "n": 171,
+  "accuracy": 0.7192982456140351,
+  "macro_f1": 0.5689075630252101,
+  "per_class": {
+    "disaster": {
+      "precision": 0.7567567567567568,
+      "recall": 0.9032258064516129,
+      "f1": 0.8235294117647058,
+      "support": 124
+    },
+    "not_disaster": {
+      "precision": 0.4782608695652174,
+      "recall": 0.23404255319148937,
+      "f1": 0.3142857142857143,
+      "support": 47
+    }
+  },
+  "confusion_matrix": [
+    [
+      112,
+      12
+    ],
+    [
+      36,
+      11
+    ]
+  ],
+  "per_script": {
+    "devanagari": {
+      "n": 66,
+      "accuracy": 0.7424242424242424,
+      "macro_f1": 0.5524531312325489
+    },
+    "romanized_nepali": {
+      "n": 37,
+      "accuracy": 0.8108108108108109,
+      "macro_f1": 0.44776119402985076
+    },
+    "mixed": {
+      "n": 13,
+      "accuracy": 0.5384615384615384,
+      "macro_f1": 0.35
+    },
+    "english": {
+      "n": 55,
+      "accuracy": 0.6727272727272727,
+      "macro_f1": 0.6168730650154799
+    }
+  },
+  "dev_macro_f1": 0.7117084517963298,
+  "model": "IRIISNEPAL/RoBERTa_Nepali_110M",
+  "task": "binary",
+  "seed": 3,
+  "labels": [
+    "disaster",
+    "not_disaster"
+  ],
+  "train_seconds": 187.6
+}
